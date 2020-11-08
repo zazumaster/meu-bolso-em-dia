@@ -34,8 +34,14 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
 
-          <link href="/assets/webfont/carossoft/font.css" rel="stylesheet" />
-          <link rel="icon" href="../public/favicon.ico" />
+          <link
+            rel="preload"
+            href="/fonts/carossoft/CarosSoftMedium.woff"
+            as="font"
+            crossOrigin=""
+          />
+          <link href="/fonts/carossoft/font.css" rel="stylesheet" />
+          <link rel="icon" href="/favicons/favicon.ico" />
         </Head>
 
         <body>

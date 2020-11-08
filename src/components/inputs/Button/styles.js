@@ -13,7 +13,7 @@ export const Anchor = styled.a`
       fill: #ffffff;
     }
     .st2 {
-      font-family: 'CarosSoft';
+      font-family: 'Caros Soft Regular' !important;
     }
     .st3 {
       font-size: 14px;
