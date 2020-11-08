@@ -1,7 +1,5 @@
 import React from 'react';
-import Document, {
- Html, Head, Main, NextScript
-} from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
@@ -32,16 +30,12 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html tang="pt">
+      <Html lang="pt-BR">
         <Head>
           <meta charSet="utf-8" />
 
-          <link
-            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
-            rel="stylesheet"
-          />
-
-          <link rel="icon" href="https://rocketseat.com.br/favicon.ico" />
+          <link href="/assets/webfont/carossoft/font.css" rel="stylesheet" />
+          <link rel="icon" href="../public/favicon.ico" />
         </Head>
 
         <body>

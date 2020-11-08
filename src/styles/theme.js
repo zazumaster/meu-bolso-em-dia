@@ -1,9 +1,13 @@
 const theme = {
   color: {
-    background: '#121214',
-    text: '#e1e1e6',
-    opaqueText: '#b1b1b6',
-    primary: '#8257e6',
+    background: '#F7F7F7',
+    text: '#787777',
+    primary: '#004178',
+    primaryHover: '#0062cc',
+    accent: '#A3D2B1',
+  },
+  breakPoint: {
+    laptop: '991px',
   },
 };
 

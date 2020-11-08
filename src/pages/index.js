@@ -1,15 +1,14 @@
 import React from 'react';
-import { Container, Title, Description } from '../styles/pages/Home';
+import { Container } from '../styles/pages/Home';
 
-import RocketseatLogo from '../assets/rocketseat.svg';
+import NextHead from '../components/NextHead';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
     <Container>
-      <RocketseatLogo alt="Rocketseat" />
-      <Title>ReactJS Scructure</Title>
-
-      <Description>ReactJS with NEXT.js template in Javascript</Description>
+      <NextHead title="Meu Bolso em Dia" />
+      <Header />
     </Container>
   );
 }
