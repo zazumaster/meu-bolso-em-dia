@@ -4,6 +4,7 @@ import { Container } from '../styles/pages/Home';
 import NextHead from '../components/NextHead';
 import Header from '../components/Header';
 import Featured from '../components/patterns/Featured';
+import PostLoop from '../components/patterns/PostLoop';
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         <div className="container mt-5">
           <div className="line" />
         </div>
+
+        <PostLoop />
       </div>
     </Container>
   );
