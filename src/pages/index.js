@@ -5,12 +5,14 @@ import NextHead from '../components/NextHead';
 import Header from '../components/Header';
 import Featured from '../components/patterns/Featured';
 import PostLoop from '../components/patterns/PostLoop';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
     <Container>
       <NextHead title="Meu Bolso em Dia" />
       <Header />
+
       <div className="box">
         <Featured />
 
@@ -20,6 +22,8 @@ export default function Home() {
 
         <PostLoop />
       </div>
+
+      <Footer />
     </Container>
   );
 }
