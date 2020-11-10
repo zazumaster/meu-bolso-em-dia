@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from '../styles/pages/Home';
+import { Container } from '../styles/pages/home';
 
 import NextHead from '../components/NextHead';
 import Header from '../components/Header';

@@ -8,6 +8,7 @@ const theme = {
   },
   breakPoint: {
     laptop: '991px',
+    tablet: '600px',
   },
 };
 
